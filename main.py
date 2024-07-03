@@ -9,7 +9,6 @@ if range_y < range_x:
     raise Exception("Second number must be bigger then the first one")
 
 random_number = random.randint(range_x,range_y)
-print(random_number)
 
 minimum_number_of_gueses=math.ceil(math.log2(range_y-range_x+1))
 print(f"You've only have {minimum_number_of_gueses} chances. Good luck!")
